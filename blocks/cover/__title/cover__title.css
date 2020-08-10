@@ -1,0 +1,21 @@
+.cover__title {
+  width: 100%;
+  max-width: 560px;
+  margin: auto;
+  margin-bottom: 0;
+
+  /* ниже свойства для форматирования текста  */
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+  color: #fff;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
