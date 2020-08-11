@@ -3,11 +3,11 @@
   line-height: 1.12;
   color: #fff;
   text-decoration: none;
-  transition: opacity .3s ease-in;
 }
 
 
 .footer__link:hover {
+  transition: opacity .3s ease-in;
   opacity: .8;
 }
 

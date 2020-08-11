@@ -5,7 +5,11 @@
   line-height: 1.17;
   text-align: right;
 
-  color: #FFFFFF;
+}
+
+.header__lang-link:hover {
+  transition: .3s opacity ease-in;
+  opacity: .8;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

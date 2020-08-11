@@ -3,7 +3,7 @@
   font-size: 18px;
   line-height: 1.63;
 
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .place__paragraph:last-child {
@@ -14,6 +14,5 @@
   .place__paragraph {
     padding: 0 16px;
     font-size: 16px;
-    line-height: 163%;
   }
 }

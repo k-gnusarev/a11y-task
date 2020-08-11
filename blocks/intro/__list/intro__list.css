@@ -5,6 +5,27 @@
 
   color: #fff;
 
-  padding: 0;
-  margin: 0;
+  padding-left: 148px;
+  max-width: 690px;
+}
+@media screen and (max-width: 1279px) {
+  .intro__list {
+    padding-left: 48px;
+  }
+}
+
+@media all and (max-width: 1023px){
+  .intro__list {
+    max-width: none;
+    padding-left: 0;
+    padding: 0 24px 0;
+  }
+}
+
+@media all and (max-width: 767px){
+  .intro__list {
+    max-width: none;
+    padding-left: 0;
+    padding: 0 16px 0;
+  }
 }

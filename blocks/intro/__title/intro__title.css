@@ -1,15 +1,35 @@
 .intro__title {
-  margin-bottom: 40px;
   font-weight: 900;
   font-size: 54px;
   line-height: 1.07;
   color: #fff;
+
+  padding-left: 148px;
+  padding-bottom: 40px;
+  max-width: 690px;
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
   .intro__title {
-    min-width: 288px;
+    padding-left: 48px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .intro__title {
+    max-width: none;
+    margin-top: 88px;
+    padding: 0 24px 40px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .intro__title {
     font-size: 32px;
     line-height: 1.09;
+
+    max-width: none;
+    margin-top: 64px;
+    padding: 0 16px 40px;
   }
 }

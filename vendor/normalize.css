@@ -80,7 +80,7 @@ pre {
  */
 
 a:link, a:visited, a:hover, a:active, a:focus {
-  background-color: transparent;
+  text-decoration: none;
   padding: 0;
   margin: 0;
 }
