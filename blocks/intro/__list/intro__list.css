@@ -5,6 +5,11 @@
 
   color: #fff;
 
+  /* сброс стандартного оформления списка */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
   padding-left: 148px;
   max-width: 690px;
 }

@@ -1,4 +1,8 @@
 .place__paragraph {
+  /* сброс стандартных отступов */
+  margin: 0;
+  padding: 0;
+
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.63;

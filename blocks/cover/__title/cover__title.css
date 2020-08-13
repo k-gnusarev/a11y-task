@@ -1,8 +1,10 @@
 .cover__title {
-  width: 100%;
+  /* сброс стандартных отступов заголовка */
+  margin: 0;
+  padding: 0;
+  
   max-width: 560px;
-  margin: auto;
-  margin-bottom: 0;
+  margin-bottom: 32px;
 
   /* ниже свойства для форматирования текста  */
   font-weight: 900;
@@ -17,5 +19,7 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 1.09;
+
+    margin-bottom: 16px;
   }
 }

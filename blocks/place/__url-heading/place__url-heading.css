@@ -1,4 +1,8 @@
 .place__url-heading {
+  /* сброс стандартных отступов */
+  margin: 0;
+  padding: 0;
+
   font-size: 12px;
   line-height: 1.7;
 

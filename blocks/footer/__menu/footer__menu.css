@@ -1,11 +1,17 @@
 .footer__menu {
+  /* сброс стандартных отступов */
+  margin: 0;
+  padding: 0;
+
   display: flex;
   flex-direction: inherit;
+  align-items: flex-end;
   gap: 18px;
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {
   .footer__menu {
+    align-items: flex-start;
     gap: 32px;
   }
 }

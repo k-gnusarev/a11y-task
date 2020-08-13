@@ -1,4 +1,8 @@
 .intro__text {
+  /* сброс стандартных отступов */
+  margin: 0;
+  padding: 0;
+  
   font-size: 16px;
   line-height: 1.63;
   color: #fff;

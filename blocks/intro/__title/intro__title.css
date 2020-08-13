@@ -1,4 +1,8 @@
 .intro__title {
+  /* сброс стандартных отступов заголовка */
+  margin: 0;
+  padding: 0;
+
   font-weight: 900;
   font-size: 54px;
   line-height: 1.07;
@@ -18,7 +22,6 @@
 @media all and (max-width: 1023px) {
   .intro__title {
     max-width: none;
-    margin-top: 88px;
     padding: 0 24px 40px;
   }
 }
@@ -29,7 +32,6 @@
     line-height: 1.09;
 
     max-width: none;
-    margin-top: 64px;
     padding: 0 16px 40px;
   }
 }

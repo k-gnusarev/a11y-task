@@ -1,4 +1,8 @@
 .lead__title {
+  /* сброс стандартных отступов заголовка */
+  margin: 0;
+  padding: 0;
+
   max-width: 720px;
   min-width: 288px;
   margin-bottom: 32px;

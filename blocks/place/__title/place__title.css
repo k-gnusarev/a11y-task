@@ -1,4 +1,8 @@
 .place__title {
+  /* сброс стандартных отступов заголовка */
+  margin: 0;
+  padding: 0;
+
   max-width: 100%;
   font-weight: 900;
   font-size: 72px;
