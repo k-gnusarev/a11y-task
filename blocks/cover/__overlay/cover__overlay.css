@@ -10,12 +10,14 @@
   justify-content: center;
 
 
+
+
   background-color: rgba(42, 44, 47, .3);
   transition: background 0.3s ease-in;
   text-decoration: none;
+
+
 }
-
-
 
 .cover__overlay:hover {
   background-color: rgba(42, 44, 47, .8);
