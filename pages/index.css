@@ -190,6 +190,11 @@ textarea {
   padding: 80px 64px;
 }
 
+.about-us img {
+  object-fit: contain;
+  width: 100%;
+}
+
 .about-us__list {
   display: flex;
   gap: 18px;
